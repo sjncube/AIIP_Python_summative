@@ -10,7 +10,7 @@ You are currently going through a down period where there is a sensor is out. Wh
 # Problem 1:
 Before they switch all the sensors back on they want to have a solution in place. However, right now there is no data for you to use. You have been asked to generate a dummy dataset that you can use to prove your solutions work with.
 
-----------------------------------------------------------ACCEPTANCE CRITERIA-----------------------------------------------------------
+----------------------------------------------------------ACCEPTANCE CRITERIA--------------------------------------------------------
 
 1. The order of the objects must be sequential, ( ie. 1,2,3...32. ) since each number references a different pipeline region.
 2. Your generated dataset needs to return a single set of data, that has 32 entries, with each entry returning 16 floats. 
@@ -18,7 +18,7 @@ Before they switch all the sensors back on they want to have a solution in place
 # Problem 2:
 Once you have your dataset to work with you will need to show that you can store this data with every iteration of the data set so no data is lost.
 
-----------------------------------------------------------ACCEPTANCE CRITERIA-----------------------------------------------------------
+----------------------------------------------------------ACCEPTANCE CRITERIA--------------------------------------------------------
 1. Every time your data set is generated the output should be stored and saved
 2. For a challenge you could try to write the data to a file
 3. New data should not overwrite historical data
@@ -26,7 +26,7 @@ Once you have your dataset to work with you will need to show that you can store
 # Problem 3:
 Write a function that will test the incoming data for possible strings entries
 
-----------------------------------------------------------ACCEPTANCE CRITERIA-----------------------------------------------------------
+----------------------------------------------------------ACCEPTANCE CRITERIA--------------------------------------------------------
 1. Create a copy of a "corrupted" data set containing at least one entry where the value is "err"
 2. Your function should check for this error
 3. Convert the string to a numerical value that can be uniquely identified as the error
